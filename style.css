@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body{
+    background-color: white;
+  }
+  /* обертка */
+  .wrapper{
+    background-color: rgb(194, 194, 194);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15px 0 15px 0;
+    margin-bottom: 8px;
+  }
+ /* добавлятель задачи */
+  .text_add{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15px 0 15px 0;
+  }
+   /* поле для ввода текста задачи */
+  .todo_text{
+    width: 80%;
+    min-height: 15vmin;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    border: solid rgb(128, 128, 128);
+    border-radius: 2vmin;
+    padding: 10px;
+    outline: none;
+    font-size: 24px;
+  }
+  .todo_add{
+    width: 15vh;
+    min-height: 15vh;
+    background:
+    linear-gradient(#fff 0 0),
+    linear-gradient(#fff 0 0),
+    #000;
+  background-position:center;
+  background-size: 50% 2px,2px 50%; /*thickness = 2px, length = 50% (25px)*/
+  background-repeat:no-repeat;
+    border-radius: 2vmin;
+  }
+  .todo_add:hover{
+    cursor: pointer;
+  }
+  
+  .todo__options{
+    background-color: #000000cb;
+    background-size: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: inherit;
+    line-height: inherit;
+    width: 250px;
+    max-width: 100%;
+    height: 10vh;
+    outline: none;
+    padding: 2px 30px 6px 12px;
+  }
+
+
+  /* item */
+
+  .item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #2b414ea8;
+    text-align: left;
+    font-size: 24px;
+    padding: 5px 10px;
+    margin-bottom: 8px;
+    font-family: sans-serif;
+    border: 2px solid #000;
+
+
+    align-items: center;
+
+  }
+
+  /* .span__text{
+    width: 96%;
+    max-width: 96%;
+    word-wrap: break-word;
+    padding: 20px 15px 20px 15px;
+  } */
+
+.delete{
+    height: 5vh;
+    width:5vh;
+    background-color: red;
+    cursor: pointer;
+
+
+    flex-shrink: 0;
+    margin-left: 10px;
+  }

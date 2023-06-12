@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>ASTRO</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="text_add">
+            <input class="todo_text" type="text" placeholder="Введите to do на сегодня">
+            <span class="todo_add"></span>
+        </div>
+        <select class="todo__options">
+            <option value="active">активные</option>
+            <option value="deleted">Завершённые</option>
+          </select>
+    </div> 
+    <ul class="todo__items" data-todo-option="active">
+    </ul>
+    <script src="./renderer.js"></script>
+</body>
