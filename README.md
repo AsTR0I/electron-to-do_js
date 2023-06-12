@@ -1,4 +1,6 @@
 # electron-to-do_js
+archive for download https://drive.google.com/drive/folders/1TV_oDAq_biLkuR-NHj2W59JdSYbefhj9?usp=sharing
+
 ![Иллюстрация к проекту](https://github.com/AsTR0I/electron-to-do_js/blob/main/1.png)
 ![Иллюстрация к проекту](https://github.com/AsTR0I/electron-to-do_js/blob/main/2.png)
 deleted items:
